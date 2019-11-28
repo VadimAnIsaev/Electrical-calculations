@@ -15,7 +15,7 @@ Const
   argentum	= 0.015;
 
 // Температурный коэффициент проводников, %/гр C
-  cteCuprum	= 0.4;
+  cteCuprum	= 0.39;
   cteAluminium	= 0.49;
   cteGold	= 0.37;
   cteArgentum	= 0.38;
