@@ -20,7 +20,7 @@ real, parameter :: gold		= 0.023
 real, parameter :: argentum	= 0.015
 
 ! Температурный коэффициент проводников, %/гр C
-real, parameter :: cteCuprum	= 0.4
+real, parameter :: cteCuprum	= 0.39
 real, parameter :: cteAluminium	= 0.49
 real, parameter :: cteGold	= 0.37
 real, parameter :: cteArgentum	= 0.38
