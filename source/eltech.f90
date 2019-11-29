@@ -14,16 +14,18 @@ module eltech
 implicit none
 
 ! Удельное сопротивление при 20 гр. Ц, материал проводника, (Ом * мм^2)/м
-real, parameter :: cuprum	= 0.0175	! Медь
-real, parameter :: aluminium	= 0.0281	! Алюминий
-real, parameter :: gold		= 0.023
-real, parameter :: argentum	= 0.015
+  roCuprumMM	= 0.0175;	// Медь
+  roCuprumMT	= 0.0180;
+  roAluminium	= 0.0281;	// Алюминий
+  roGold	= 0.0227;
+  roArgentum	= 0.0155;
 
-! Температурный коэффициент проводников, %/гр C
-real, parameter :: cteCuprum	= 0.39
-real, parameter :: cteAluminium	= 0.49
-real, parameter :: cteGold	= 0.37
-real, parameter :: cteArgentum	= 0.38
+! Температурный коэффициент проводников, 1/гр C
+  cteCuprumMM	= 0.00410;
+  cteCuprumMT	= 0.00420;
+  cteAluminium	= 0.00435;
+  cteGold	= 0.00375;
+  cteArgentum	= 0.00360;
 
 ! Константы, которые могут понадобится при расчётах
 real, parameter :: Pi		= 3.141592653589793_8
