@@ -9,16 +9,19 @@ interface
 
 Const
   // Удельное сопротивление при 20 гр. Ц, материал проводника, (Ом * мм^2)/м
-  cuprum	= 0.0175;	// Медь
-  aluminium	= 0.0281;	// Алюминий
-  gold		= 0.023;
-  argentum	= 0.015;
+  roCuprumMM	= 0.0175;	// Медь
+  roCuprumMT	= 0.0180;
+  roAluminium	= 0.0281;	// Алюминий
+  roGold	= 0.0227;
+  roArgentum	= 0.0155;
 
-// Температурный коэффициент проводников, %/гр C
-  cteCuprum	= 0.39;
-  cteAluminium	= 0.49;
-  cteGold	= 0.37;
-  cteArgentum	= 0.38;
+// Температурный коэффициент проводников, 1/гр C
+  cteCuprumMM	= 0.00410;
+  cteCuprumMT	= 0.00420;
+  cteAluminium	= 0.00435;
+  cteGold	= 0.00375;
+  cteArgentum	= 0.00360;
+
 
 // Константы, которые могут понадобится при расчётах
   Pi		= 3.141592653589793;
